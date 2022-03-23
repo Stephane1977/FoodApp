@@ -5,4 +5,112 @@
        
     }
 
+    :root {
+        --white: #ffffff;
+        --gray-light: #f5fbfc;
+        --gray-dark: #08090a;
+        --green: #35b8be;
+        --green-dark: #1b9097;
+        --green-light: #f5fbfc;
+        --blue-dark: #546285;
+    
+    }
+        
+
+body .alert {
+    display: block;
+    color: var(--white);
+    text-align: center;
+    
+    background: var(--green) url('../images/banner_wave.svg') no-repeat;
+    padding: 15px 0;
+    
+    }
+nav .menu-burger {
+    display: none;
+}
+
+nav .menu-desktop {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+nav .menu-desktop a {
+    text-decoration: none;
+    color: var(--green-dark);
+}
+body nav img{
+    width: 10%;
+}
+
+/**
+*header
+*/
+
+header
+ {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    text-align: left;
+    padding: 100px 0;
+
+}
+header h1{
+    font-size: 4rem;
+}
+
+header img{
+    margin: 0;
+}
+
+header img{
+    margin: 0 !important;
+}
+
+main section h2 {
+    font-size: 3.2rem;
+}
+
+main section:last-child div {
+
+    text-align: center;
+}
+
+main .homefresh{
+    display: flex;
+    align-items:center ;
+    gap: 50px;
+    text-align: center;
+    text-align: left;
+    padding-left: 400px;
+}
+ .picture {
+    width: 80%;
+}
+
+main section:nth-child(2) > section{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    text-align: left;
+    padding: 100px 0;
+
+}
+
+footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul {
+
+    margin: 0;
+    
+}
+
 }
